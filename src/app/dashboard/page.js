@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 // Cookie helpers
 function getCookie(name) {
@@ -303,8 +304,8 @@ export default function Dashboard() {
           <span className="text-2xl font-bold text-gray-800">Library System</span>
         </div>
         <nav className="flex gap-8">
-          <a href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Catalog</a>
-          <a href="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium transition">Dashboard</a>
+          <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Catalog</Link>
+          <Link href="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium transition">Dashboard</Link>
         </nav>
         <div>
           <span className="text-gray-600 font-medium">Hello, {username}</span>

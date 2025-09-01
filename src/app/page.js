@@ -173,8 +173,8 @@ export default function Home() {
           <span className="text-2xl font-bold text-gray-800">Library System</span>
         </div>
         <nav className="flex gap-8">
-          <a href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Catalog</a>
-          <a href="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium transition">Dashboard</a>
+          <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Catalog</Link>
+          <Link href="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium transition">Dashboard</Link>
         </nav>
         <div>
           {username ? (

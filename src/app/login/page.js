@@ -134,7 +134,7 @@ export default function LoginPage() {
         <div className="mt-6 text-center">
           {isLogin ? (
             <>
-              <span className="text-blue-700">Don't have an account?</span>{" "}
+              <span className="text-blue-700">Don&apos;t have an account?</span>{" "}
               <button
                 className="text-blue-600 hover:underline font-semibold"
                 onClick={() => {
